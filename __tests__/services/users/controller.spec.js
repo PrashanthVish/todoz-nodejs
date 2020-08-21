@@ -3,7 +3,7 @@ const User = require('../../../database/models/users');
 
 describe('UserController', () => {
   afterAll(async () => {
-    await User.getById({ email: 'test@test.com' }).delete();
+    await User.getById({ email: 'test1@test.com' }).delete();
   });
   test('should signUp user successfully', async () => {
     const ctx = {
@@ -12,7 +12,7 @@ describe('UserController', () => {
       request: {
         body: {
           fullName: 'testUser',
-          email: 'test@test.com',
+          email: 'test1@test.com',
           password: 'testpwd',
         }
       }
@@ -41,7 +41,7 @@ describe('UserController', () => {
       status: jest.fn(),
       request: {
         body: {
-          email: 'test@test.com',
+          email: 'test1@test.com',
           password: 'testpwd',
         }
       }
@@ -72,7 +72,7 @@ describe('UserController', () => {
       status: jest.fn(),
       request: {
         body: {
-          email: 'test@test.com',
+          email: 'test1@test.com',
           password: 'testpwdwrong',
         }
       }

@@ -8,8 +8,12 @@ In this NodeJs version of todoz, I will be writing a simple backend in KoaJs + K
 ## how to run locally
 ```
 npm install
-npm -g install nodemon
-nodemon .
+node .
+```
+
+## how to run tests
+```
+npm run test
 ```
 
 <br> <br>
