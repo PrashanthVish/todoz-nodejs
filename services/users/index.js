@@ -8,3 +8,5 @@ const app = new Router({
 
 app.post('/signup', UserValidator.signUp, UserController.signUp);
 app.post('/signin', UserValidator.signIn, UserController.signIn);
+
+module.exports = app;
