@@ -1,8 +1,5 @@
 # todoz-nodejs
-todoz is an array of projects, where I will be trying to build simple todo app in different technologies. the main focus of these projects to show case my coding style, folder structure and unit testing. 
-<br>
-
-In this NodeJs version of todoz, I will be writing a simple backend in KoaJs + Knex + Jest and will make sure to follow Test Driven Development strictly.
+A simple todo list API
 <br><br>
 
 ## how to run locally
