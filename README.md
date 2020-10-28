@@ -13,16 +13,6 @@ node .
 npm run test
 ```
 
-<br> <br>
-## Coming soon
-- Todo & List Service 
-- Dockerize every service
-- Elasticsearch
-
-<br> <br>
-I am open for suggestions on how to improve the code. Please do let me know if you have any suggestions.
-
-<br> 
 
 ## License
 MIT
